@@ -1,0 +1,7 @@
+/node_modules
+*.env
+.env
+.vscode-test
+public
+build
+/.vscode
