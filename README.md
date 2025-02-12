@@ -1,10 +1,9 @@
-# Superepo 🚀
+# Nest-Next Monorepo 🚀
 
 A powerful monorepo template integrating **Next.js (frontend)** and **NestJS (backend)** with modern tooling such as **Turborepo, TypeScript, TailwindCSS, and shadcn**. This setup is designed for **scalability, performance, and developer experience**.
 
 ---
 
-<<<<<<< HEAD
 ## 📌 Features
 
 ### 🌐 Web (Next.js 15) 🖥️
@@ -17,28 +16,6 @@ A powerful monorepo template integrating **Next.js (frontend)** and **NestJS (ba
 - Fully typed with **TypeScript** 🏗️
 - UI built with **shadcn/ui & TailwindCSS** 🏄
 - Hot Module Replacement (**HMR**) for a seamless development experience 🔄
-=======
-You can use or follow the step 1 to clone.
-```bash
-pnpm dlx superepo@latest init
-```
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/mohitarora/superepo.git
-
-cd superepo
-```
-
-2. Setup Environment Variables
-
-Copy .env.example to .env in both apps/api and apps/web
-```bash
-cp apps/api/.env.example apps/api/.env
-cp apps/web/.env.example apps/web/.env
-```
->>>>>>> 91cfef68a645366c37e832717770f704481e70e6
 
 ### 🏗 API (NestJS 11) 🛠
 
@@ -74,40 +51,16 @@ cp apps/web/.env.example apps/web/.env
 pnpm install
 ```
 
-<<<<<<< HEAD
 ### 3️⃣ Run Development Servers
-=======
-4. Start the database (optional)
-
-example for Postgres:
-```bash
-docker pull postgres
-docker run -d --name <container_name> -p 5432:5432 -e POSTGRES_PASSWORD=<new_password> postgres
-```
-then update the .env file with the new password (default **DB_USERNAME**=postgres, **DB_DATABASE**=postgres) 
-
-5. Start the app
->>>>>>> 91cfef68a645366c37e832717770f704481e70e6
 
 ```sh
 pnpm run dev
 ```
 
-<<<<<<< HEAD
 ### 4️⃣ Build for Production
 
 ```sh
 pnpm build
-=======
-6. Visit http://localhost:3000
-
-7. Visit http://localhost:4000/api/docs
-
-If you need to install new packages, you can add to the respective app folder:
-
-```bash
-pnpm add <package-name>
->>>>>>> 91cfef68a645366c37e832717770f704481e70e6
 ```
 
 ---
@@ -151,7 +104,6 @@ http://localhost:4000/api
 pnpm format
 ```
 
-<<<<<<< HEAD
 ### Run ESLint 🔍
 
 ```sh
@@ -188,15 +140,3 @@ Pull requests are welcome! Ensure your changes follow the project's coding style
 ## 📜 License ⚖️
 
 This project is under **MIT LICENSE** by default.
-=======
-- Next.js 15
-- NestJS 11
-- shadcn/ui
-- next-auth
-- passport
-- TypeORM
-
-## License
-
-Superepo is released under the [MIT License](https://opensource.org/licenses/MIT).
->>>>>>> 91cfef68a645366c37e832717770f704481e70e6
