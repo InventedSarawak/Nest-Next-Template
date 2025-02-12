@@ -65,7 +65,7 @@ pnpm build
 
 ---
 
-## 🐳 Running with Docker
+<!-- ## 🐳 Running with Docker
 
 You can start the frontend and backend using Docker Compose:
 
@@ -84,7 +84,7 @@ To stop everything:
 docker-compose down
 ```
 
----
+--- -->
 
 ## 📖 API Documentation
 
