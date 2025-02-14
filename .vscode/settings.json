@@ -6,4 +6,20 @@
         "source.fixAll.eslint": "always"
     },
     "files.eol": "\n",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.jsxAttributeCompletionStyle": "braces",
+    "git.enableSmartCommit": true,
+    "gitlens.hovers.enabled": true,
+    "tailwindCSS.experimental.classRegex": [
+        "clsx\\(([^)]*)\\)",
+        "classnames\\(([^)]*)\\)"
+    ],
+    "css.validate": false,
+    "scss.validate": false,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "debug.inlineValues": "on"
 }
